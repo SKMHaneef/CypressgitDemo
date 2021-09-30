@@ -3,8 +3,8 @@
         "cypress": "8.5.0"
     },
 "scripts": {
-    "test.chrome": "cypress run --headed --browser chrome",
-    "test.firefox": "cypress run --headed --browser firefox"
+    "test.chrome": "npx cypress run --headed --browser chrome",
+    "test.firefox": "npx cypress run --headed --browser firefox"
 }
     
 }
