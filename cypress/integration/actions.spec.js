@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-context('Actions', () => {
+context('Actions', () => {``
     beforeEach(() => {
       cy.visit('https://example.cypress.io/commands/actions')
     })
@@ -37,7 +37,7 @@ context('Actions', () => {
       // https://on.cypress.io/focus
       cy.get('.action-focus').focus()
         .should('have.class', 'focus')
-        .prev().should('have.attr', 'style', 'color: orange;')
+        .prev().should('have.attr', 'style', 'color: red;')
     })
   
     it('.blur() - blur off a DOM element', () => {
