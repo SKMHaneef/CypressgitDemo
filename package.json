@@ -3,8 +3,8 @@
         "cypress": "8.5.0"
     },
 "scripts": {
-    "test.chrome": "npx cypress run --headed --browser chrome",
-    "test.firefox": "npx cypress run --headed --browser firefox"
+    "test.chrome": "npx cypress run --record --key 246f4a16-2f44-41d7-946f-5572337e3b61 --headed --browser chrome",
+    "test.firefox": "npx cypress run --record --key 246f4a16-2f44-41d7-946f-5572337e3b61 --headed --browser firefox"
 }
     
 }
